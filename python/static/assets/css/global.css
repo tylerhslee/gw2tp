@@ -1,0 +1,339 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Lato:700,300);
+/* ==========================================================================
+   Google Font Loader
+   ========================================================================== */
+/* ==========================================================================
+   Common Styles
+   ========================================================================== */
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 24px;
+  overflow-x: hidden;
+  /* fixing the overflow duting animation */
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+h1 {
+  font-size: 3em;
+}
+h3 {
+  font-size: 1.6em;
+  line-height: 1.4em;
+}
+p {
+  font-size: 13px;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  line-height: 24px;
+  font-weight: 400;
+}
+a {
+  color: #444;
+  -webkit-transition: all .3s linear;
+  -moz-transition: all .3s linear;
+  -ms-transition: all .3s linear;
+  -o-transition: all .3s linear;
+  transition: all .3s linear;
+}
+a:hover,
+a:focus {
+  color: #3498db;
+}
+img {
+  max-width: 100%;
+}
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+ul li {
+  list-style: none;
+  margin: 0;
+}
+ol {
+  list-style: none;
+}
+a:hover,
+a:focus {
+  text-decoration: none;
+  outline: none;
+}
+.center {
+  text-align: center;
+}
+.btn i {
+  margin-right: 5px;
+}
+::selection {
+  background: #3498db;
+  color: #fff;
+}
+::-moz-selection {
+  background: #3498db;
+  color: #fff;
+}
+.block-title {
+  margin: 0px 0px 20px;
+}
+h3.block-title {
+  font-size: 24px;
+  color: #fff;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+}
+/*====================================================
+		bootstrap default style overriding
+	====================================================*/
+.btn {
+  padding: 16px 22px;
+  color: #fff;
+  border-radius: 4px;
+  position: relative;
+  -webkit-transition: all .3s linear;
+  -moz-transition: all .3s linear;
+  -ms-transition: all .3s linear;
+  -o-transition: all .3s linear;
+  transition: all .3s linear;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 2px 5px 0 rgba(0, 0, 0, 0.15);
+  border: none;
+  text-transform: uppercase;
+}
+.btn:focus,
+.btn:hover {
+  color: #fff;
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.15), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+}
+.btn-common {
+  background: #3498db;
+}
+.btn-common:hover {
+  background: #48acef;
+}
+.btn-danger:hover {
+  background: #ed6763;
+}
+.btn-border {
+  background: #4285F4;
+  padding: 16px 36px!important;
+  text-transform: uppercase;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.18), 0 2px 5px 0 rgba(0, 0, 0, 0.15);
+}
+.btn-border:hover {
+  opacity: 0.8;
+  color: #fff;
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+}
+.btn-search {
+  padding: 11px;
+}
+.btn-sm {
+  font-size: 13px;
+  padding: 4px 8px;
+  line-height: 1.5;
+  margin-bottom: 5px;
+  border: none;
+}
+.btn-xs {
+  border-radius: 0px;
+  font-size: 12px;
+  line-height: 1.5;
+  padding: 1px 5px;
+}
+.btn-rm {
+  padding: 10px 21px;
+  margin-top: 30px;
+  text-transform: capitalize;
+}
+.btn-post {
+  padding: 10px 16px;
+}
+.wrapper {
+  padding: 60px 0;
+}
+.section {
+  padding: 60px 0;
+}
+.section-title {
+  font-size: 24px;
+  letter-spacing: 0.1em;
+  padding: 20px 0px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.title-2 {
+  border-bottom: 1px solid #E6E6E6;
+  font-size: 18px;
+  margin-bottom: 10px;
+  padding: 10px 0;
+  text-transform: uppercase;
+}
+#content {
+  padding: 80px 0;
+}
+.main-container {
+  padding: 80px 0;
+}
+.page-header {
+  padding: 40px 0;
+  margin: 0;
+  border-top: 1px solid #eee;
+}
+.page-header .page-title {
+  font-size: 30px;
+  line-height: 38px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+}
+.breadcrumb-wrapper {
+  text-align: center;
+}
+.breadcrumb {
+  font-size: 14px;
+  color: #3498db;
+  border-radius: 0px;
+  background: #f7f7f7;
+  padding: 5px 15px;
+  position: absolute;
+  z-index: 1;
+  margin-top: 64px;
+}
+.breadcrumb a {
+  color: #444;
+}
+.breadcrumb a:hover {
+  color: #3498db;
+}
+.no-padding {
+  padding: 0px !important;
+}
+select.form-control {
+  border: 0;
+  outline: 1px solid #ddd;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075);
+  border-radius: 0;
+}
+select.form-control:focus {
+  border: 0;
+  outline: 1px solid #ddd;
+  background-color: #fff;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075);
+}
+#loader {
+  position: fixed;
+  background: #fff;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999999999;
+}
+.sk-folding-cube {
+  margin: 0px auto;
+  top: 50%;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  -webkit-transform: rotateZ(45deg);
+  transform: rotateZ(45deg);
+}
+.sk-folding-cube .sk-cube {
+  float: left;
+  width: 50%;
+  height: 50%;
+  position: relative;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.sk-folding-cube .sk-cube:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #3498db;
+  -webkit-animation: sk-foldCubeAngle 2.4s infinite linear both;
+  animation: sk-foldCubeAngle 2.4s infinite linear both;
+  -webkit-transform-origin: 100% 100%;
+  -ms-transform-origin: 100% 100%;
+  transform-origin: 100% 100%;
+}
+.sk-folding-cube .sk-cube2 {
+  -webkit-transform: scale(1.1) rotateZ(90deg);
+  transform: scale(1.1) rotateZ(90deg);
+}
+.sk-folding-cube .sk-cube3 {
+  -webkit-transform: scale(1.1) rotateZ(180deg);
+  transform: scale(1.1) rotateZ(180deg);
+}
+.sk-folding-cube .sk-cube4 {
+  -webkit-transform: scale(1.1) rotateZ(270deg);
+  transform: scale(1.1) rotateZ(270deg);
+}
+.sk-folding-cube .sk-cube2:before {
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+}
+.sk-folding-cube .sk-cube3:before {
+  -webkit-animation-delay: 0.6s;
+  animation-delay: 0.6s;
+}
+.sk-folding-cube .sk-cube4:before {
+  -webkit-animation-delay: 0.9s;
+  animation-delay: 0.9s;
+}
+@-webkit-keyframes sk-foldCubeAngle {
+  0%,
+  10% {
+    -webkit-transform: perspective(140px) rotateX(-180deg);
+    transform: perspective(140px) rotateX(-180deg);
+    opacity: 0;
+  }
+  25%,
+  75% {
+    -webkit-transform: perspective(140px) rotateX(0deg);
+    transform: perspective(140px) rotateX(0deg);
+    opacity: 1;
+  }
+  90%,
+  100% {
+    -webkit-transform: perspective(140px) rotateY(180deg);
+    transform: perspective(140px) rotateY(180deg);
+    opacity: 0;
+  }
+}
+@keyframes sk-foldCubeAngle {
+  0%,
+  10% {
+    -webkit-transform: perspective(140px) rotateX(-180deg);
+    transform: perspective(140px) rotateX(-180deg);
+    opacity: 0;
+  }
+  25%,
+  75% {
+    -webkit-transform: perspective(140px) rotateX(0deg);
+    transform: perspective(140px) rotateX(0deg);
+    opacity: 1;
+  }
+  90%,
+  100% {
+    -webkit-transform: perspective(140px) rotateY(180deg);
+    transform: perspective(140px) rotateY(180deg);
+    opacity: 0;
+  }
+}

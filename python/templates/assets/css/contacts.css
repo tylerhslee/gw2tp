@@ -1,0 +1,198 @@
+.contact-form,
+.information {
+  margin-top: 40px;
+}
+.contact-datails {
+  margin-bottom: 12px;
+  min-height: 75px;
+  position: relative;
+}
+.contact-datails .icon {
+  position: absolute;
+}
+.contact-datails .icon i {
+  font-size: 18px;
+}
+.contact-datails .info {
+  padding-left: 30px;
+}
+.contact-datails .info h3 {
+  font-size: 15px;
+  display: block;
+  text-transform: uppercase;
+}
+.contact-datails .info .datail {
+  display: block;
+  color: #888;
+}
+.form-control {
+  background-color: #FFF;
+  border: 1px solid #ddd;
+  border-radius: 0;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075);
+  color: #444;
+  display: block;
+  height: 44px;
+  padding: 10px 12px;
+  width: 100%;
+}
+.input-icon input {
+  padding-left: 40px;
+}
+.input-icon {
+  position: relative;
+}
+.login-form .input-icon i {
+  color: #444;
+  opacity: 0.6;
+  border-right: 1px solid #ccc;
+  padding-right: 10px;
+}
+.input-icon i {
+  font-size: 15px;
+  left: 12px;
+  line-height: 22px;
+  margin-top: -11px;
+  position: absolute;
+  top: 50%;
+}
+.form-control:focus,
+textarea:focus {
+  box-shadow: none;
+  border: 1px solid #3498db;
+  outline: none;
+}
+.has-error .form-control:focus {
+  box-shadow: none;
+}
+.addon {
+  font-size: 20px;
+  color: #888;
+  border-radius: 0px;
+  width: 32px!important;
+}
+.box {
+  padding: 15px;
+  border: 1px solid #ddd;
+  box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.075);
+}
+.page-login-form h3 {
+  font-size: 18px;
+  color: #444;
+  line-height: 18px;
+  padding: 15px 0 30px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.page-login-form .login-form .form-control {
+  background: #ffffff !important;
+}
+.page-login-form .log-btn {
+  width: 100%;
+  padding: 12px 22px;
+  margin: 0px 0px 20px;
+  letter-spacing: 1;
+  text-transform: capitalize;
+  font-size: 16px;
+}
+.page-login-form .form-links {
+  width: 100%;
+  height: 25px;
+}
+.page-login-form .form-links li {
+  display: inline-block;
+}
+.page-login-form .form-links li a {
+  color: #999;
+}
+.page-login-form .form-links li a:hover {
+  color: #3498db;
+}
+.page-login-form .checkbox {
+  margin-bottom: 10px;
+}
+.page-login-form input[type="checkbox"] {
+  display: none;
+}
+.page-login-form .checkbox label {
+  cursor: pointer;
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 5px;
+  color: #797979;
+}
+.page-login-form .checkbox label:before {
+  content: "\2022";
+  display: inline-block;
+  color: #cbcbcb;
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+  position: absolute;
+  left: 0;
+  top: 5px;
+  border: 1px solid #e6e6e6;
+  border-radius: 8px;
+  font-size: 35px;
+  text-align: center;
+  line-height: 11px;
+}
+.page-login-form .checkbox input[type=checkbox]:checked + label:before {
+  content: "\2022";
+  color: #3498DB;
+  font-size: 35px;
+  text-align: center;
+  line-height: 11px;
+}
+.page-login-form .checkbox-inline + .checkbox-inline {
+  margin-left: 0;
+}
+.table-action .checkbox {
+  margin-top: 0;
+  float: left;
+}
+.registration .form-group {
+  margin: 0;
+}
+.registration .form-group .lable {
+  margin-bottom: 10px;
+}
+.registration .form-group .form-control {
+  background: #ffffff !important;
+}
+.registration .btn {
+  padding: 7px 20px;
+  border: none;
+}
+.form-ad .checkbox label {
+  margin-bottom: 0px;
+}
+.control-label {
+  font-size: 14px;
+  color: #888;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.btn-file input[type="file"] {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  min-width: 100%;
+  min-height: 100%;
+  text-align: right;
+  opacity: 0;
+  background: transparent none repeat scroll 0px 0px;
+  cursor: inherit;
+  display: block;
+}
+.file-caption {
+  height: 54px;
+}
+.mb15 {
+  margin-bottom: 15px;
+}
+.form-static {
+  display: inline-block;
+  margin-bottom: 0px;
+  vertical-align: middle;
+}
