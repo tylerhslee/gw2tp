@@ -1,0 +1,10 @@
+---
+sql-config:
+  host: localhost
+  port: 3306
+  username: <your db username>
+  password: <your db password>
+  db: <your db name>
+
+api-config:
+  apikey: <your gw2 api key>
