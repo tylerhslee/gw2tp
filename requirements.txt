@@ -14,4 +14,4 @@ slackclient==1.0.9
 SQLAlchemy==1.1.14
 urllib3==1.22
 websocket-client==0.44.0
-Werkzeug==0.12.2
+Werkzeug==0.15.3
