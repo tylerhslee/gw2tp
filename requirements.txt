@@ -12,6 +12,6 @@ requests==2.18.4
 six==1.11.0
 slackclient==1.0.9
 SQLAlchemy==1.1.14
-urllib3==1.22
+urllib3==1.26.5
 websocket-client==0.44.0
 Werkzeug==0.12.2
